@@ -1,186 +1,105 @@
 package com.daniel;
 
-
 import java.util.Scanner;
 
 public class Main {
+    static String name = "Daniel Olasupo";
+
     public static void main(String[] args) {
-
-//        16. Write a Java program to print a face.
-//        Expected Output
-//
-//        +"""""+
-//[| o o |]
-// |  ^  |
-// | '-' |
-// +-----+
-//        System.out.println(" +\"\"\"\"\"+");
-//        System.out.println("[| o o |]");
-//        System.out.println(" |  ^  |");
-//        System.out.println(" | '-' | ");
-//        System.out.println(" +-----+");
-
-//        17. Write a Java program to add two binary numbers.
-//                Input Data:
-//        Input first binary number: 10
-//        Input second binary number: 11
-//        Expected Output
-//
-//        Sum of two binary numbers: 101
-
-//
-//                Scanner scanner = new Scanner(System.in);
-//
-//                System.out.print("Enter the first binary number: ");
-//                long binary1 = scanner.nextLong();
-//
-//                System.out.print("Enter the second binary number: ");
-//                long binary2 = scanner.nextLong();
-//
-//                long sum = addBinary(binary1, binary2);
-//
-//                System.out.println("Sum of the binary numbers: " + sum);
+        //56 EQUALS IGNORE CASE
+//     Scanner scanner = new Scanner(System.in);
+//     System.out.println("Enter you gender: ");
+//     String gender = scanner.nextLine();
+//     if (gender.equalsIgnoreCase("MALE") || gender.equalsIgnoreCase("FEMALE")) {
+//         System.out.println("Valid gender");
+//     }
+//     else {
+//         System.out.println("Invalid gender");
+//     }
 
 
-//        31. Write a Java program to check whether Java is installed on your computer.
-//                try {
-//                    // Execute the command "java -version" in the command prompt
-//                    Process process = Runtime.getRuntime().exec("java -version");
-//
-//                    // Wait for the process to finish
-//                    int exitCode = process.waitFor();
-//
-//                    // Check the exit code to determine if Java is installed
-//                    if (exitCode == 0) {
-//                        System.out.println("Java is installed.");
-//                    } else {
-//                        System.out.println("Java is not installed.");
-//                    }
-//                } catch (Exception e) {
-//                    // Handle any exceptions that may occur
-//                    System.out.println("Java is not installed or an error occurred.");
-//                    e.printStackTrace();
-//                }
-//            }
 
-//        32. Write a Java program to compare two numbers.
-//        Input Data:
-//        Input first integer: 25
-//        Input second integer: 39
-//        Expected Output
-//        25 != 39
-//        25 < 39
-//        25 <= 39
+
+        //60 SWITCH CASE DEFAULT (AND BREAK STATEMENT)
+//
 //        Scanner scanner = new Scanner(System.in);
 //
-//        System.out.println("Enter first number");
-//        int num1 = scanner.nextInt();
+//        System.out.println("Enter grade: ");
+//        char grade = 'A';
 //
-//        System.out.println("Enter second number");
-//        int num2 = scanner.nextInt();
+//        switch (grade) {
+//            case 'A':
+//                System.out.println("Excellent grade");
+//                break;
+//            case 'C':
+//                System.out.println("Pass grade");
+//                break;
+//            case 'F':
+//                System.out.println("Fail grade");
+//                break;
+//            default:
+//                System.out.println("I don't know your grade G");
 //
-//        if (num1 != num2)
-//            System.out.println(num1 + " is not equal to " + num2);
-//        if (num1 < num2)
-//            System.out.println(num1 + " is less than " + num2);
-//        if (num1 <= num2) {
-//            System.out.println(num1 + " is less than or equal to " + num2);
 //        }
-//       else
-//            System.out.println("Out of comparison scope");
 
-//        33. Write a Java program and compute the sum of an integer's digits.
-//        Input Data:
-//        Input an integer: 25
-//        Expected Output
+        //61 NEW SWITCH EXPRESSION WITH RETURN VALUE
+//        char grade = 'd';
+//        String result = switch(grade) {
+//            case 'A' -> "Excellent";
+//            case 'B' -> "Very Good";
+//            case 'F' -> "Fail";
+//            default -> "Advised to withdraw";
+//        };
 //
-//        The sum of the digits is: 7
-//        100
-//
-//        --first cycle--
-//                number = 100;
-//
-//        int digit = 100/10 = 10 R 0;
-//        digit = 0;
-//
-//        sum = 0;
-//
-//        number = 100/10 = 10;
-//
-//        --second cycle--
-//        number = 10;
-//
-//        int digit = 10/10 = 1 R 0;
-//        digit = 0;
-//
-//        sum = 0;
-//
-//        number = 1;
-//
-//        --last cycle--
-//        number = 1;
-//
-//        digit = 1%10 = 1;
-//
-//        sum = 1;
-//
-//        number = 1/10 = 0;
-//
-//        break out of looP
-//        SUM is 1
+//        System.out.println(result);
 
+        //63 PACKAGES
+        //RIGHT CLICK ON SRC
+        //CLICK OPEN IN
+        //SELECT OPEN IN EXPLORER
+//        Main main = new Main();
 //
-//        Scanner scanner = new Scanner(System.in);
+//        int sum = main.add(450, 500);
+//        System.out.println(sum);
 //
-//        System.out.print("Input an integer: ");
-//        int number = scanner.nextInt();
+//        printBrand();
 //
-//        int sum = computeDigitSum(number);
-//
-//        System.out.println("Sum of the digits: " + sum);
+//        toUpperCase("DAniel OlasuPO");
 
-//        34. Write a Java program to compute hexagon area.
-//        Area of a hexagon = (6 * s^2)/(4*tan(π/6))
-//        where s is the length of a side
-//        Input Data:
-//        Input the length of a side of the hexagon: 6
-//        Expected Output
-//
-//        The area of the hexagon is: 93.53074360871938
-
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter the length of the hexagon: ");
-        int hexLength = scanner.nextInt();
-
-        double hexArea = ((6 * (hexLength*hexLength)) / (4*(Math.tan(Math.toDegrees(Math.PI/6)))));
-
-        System.out.println("The area of the hexagon is : " + hexArea);
-
-
-
-
-
-
-
+//        isAdult(78);
 
 
     }
 
-//    public static int computeDigitSum(int number) {
-//        int sum = 0;
-//
-//        while (number != 0) {
-//            int digit = number % 10;
-//            sum += digit;
-//            number /= 10;
-//        }
-//
-//        return sum;
+//    public int add(int x, int y) {
+//        int result = x + y;
+//        return result;
 //    }
+//
+//    public static void printBrand() {
+//        System.out.println("Daniel Olasupo Code");
+//    }
+//
+//    public static void toUpperCase(String name) {
+//        System.out.println(name.toUpperCase());
+//    }
+
+    public static void isAdult (int age) {
+        if (age >= 18)
+            System.out.println("You are an adult!!!");
+        else {
+            System.out.println("You are underaged!!!");
+        }
+
+    }
 
 }
 
+//56 - equalsignore => ignores case
+//60 - SWITCH case DEFAULT with break statement
+//61 - SWITCH case with return
+//63 - PACKAGES --> CHECKING the file path for SOURCE folder
+//64 - Creating a PACKAGE - It works like creating a folder to contain files
+//   - but in this case we are working with Java files
+//67 - CTRL + ALT + O ==> Shortcut to optimize imports
 
-//LESSON 31-40
-//CHALLENGING ==> 17 - 30 (Very Hard)
