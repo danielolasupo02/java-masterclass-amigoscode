@@ -3,96 +3,46 @@ package com.daniel;
 import java.util.Scanner;
 
 public class Main {
-    static String name = "Daniel Olasupo";
+
 
     public static void main(String[] args) {
-        //56 EQUALS IGNORE CASE
-//     Scanner scanner = new Scanner(System.in);
-//     System.out.println("Enter you gender: ");
-//     String gender = scanner.nextLine();
-//     if (gender.equalsIgnoreCase("MALE") || gender.equalsIgnoreCase("FEMALE")) {
-//         System.out.println("Valid gender");
-//     }
-//     else {
-//         System.out.println("Invalid gender");
-//     }
 
 
-
-
-        //60 SWITCH CASE DEFAULT (AND BREAK STATEMENT)
+//        calcIncomeSummary(1300, 250000);
 //
-//        Scanner scanner = new Scanner(System.in);
+//        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8};
 //
-//        System.out.println("Enter grade: ");
-//        char grade = 'A';
 //
-//        switch (grade) {
-//            case 'A':
-//                System.out.println("Excellent grade");
-//                break;
-//            case 'C':
-//                System.out.println("Pass grade");
-//                break;
-//            case 'F':
-//                System.out.println("Fail grade");
-//                break;
-//            default:
-//                System.out.println("I don't know your grade G");
+//
+//
+//
+//        for (int i = 0; i < nums.length; i++){
+//            if (nums[i] == 5) {
+//                return;
+//            }
+//            System.out.println(nums[i]);
 //
 //        }
 
-        //61 NEW SWITCH EXPRESSION WITH RETURN VALUE
-//        char grade = 'd';
-//        String result = switch(grade) {
-//            case 'A' -> "Excellent";
-//            case 'B' -> "Very Good";
-//            case 'F' -> "Fail";
-//            default -> "Advised to withdraw";
-//        };
-//
-//        System.out.println(result);
-
-        //63 PACKAGES
-        //RIGHT CLICK ON SRC
-        //CLICK OPEN IN
-        //SELECT OPEN IN EXPLORER
-//        Main main = new Main();
-//
-//        int sum = main.add(450, 500);
-//        System.out.println(sum);
-//
-//        printBrand();
-//
-//        toUpperCase("DAniel OlasuPO");
-
-//        isAdult(78);
+        final var name = "Daniel";
+//        name ="Praise";
+        System.out.println(name);
 
 
     }
 
-//    public int add(int x, int y) {
-//        int result = x + y;
-//        return result;
-//    }
+//    public static void calcIncomeSummary(double moIncome, double price) {
+//        double monthlyIncome = moIncome;
+//        double annualIncome = monthlyIncome * 12;
+//        double purchasePrice = price;
+//        double annualYield = (annualIncome/purchasePrice)*100;
+//        System.out.println("Your monthly rental income is: £" + monthlyIncome);
+//        System.out.println("Your annual rental income is: £" + annualIncome);
+//        System.out.println("You purchased the property for: £" + purchasePrice);
+//        System.out.println("Your rental yield is: £" + Math.round(annualYield) + "%");
 //
-//    public static void printBrand() {
-//        System.out.println("Daniel Olasupo Code");
-//    }
 //
-//    public static void toUpperCase(String name) {
-//        System.out.println(name.toUpperCase());
 //    }
-
-    public static void isAdult (int age) {
-        if (age >= 18)
-            System.out.println("You are an adult!!!");
-        else {
-            System.out.println("You are underaged!!!");
-        }
-
-    }
-
 }
 
 //56 - equalsignore => ignores case
