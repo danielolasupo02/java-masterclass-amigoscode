@@ -1,23 +1,28 @@
-package com.daniel;
+package com.daniel.car;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class Car {
-    private CarBrand brand;
+public class Car implements Serializable {
+
+    private String regNumber;
     private BigDecimal price;
 
-    public Car(CarBrand brand, BigDecimal price) {
-        this.brand = brand;
+    public Car() {
+    }
+
+    public Car(String regNumber, BigDecimal price) {
+        this.regNumber = regNumber;
         this.price = price;
     }
 
-    public CarBrand getBrand() {
-        return brand;
+    public String getRegNumber() {
+        return regNumber;
     }
 
-    public void setBrand(CarBrand brand) {
-        this.brand = brand;
+    public void setRegNumber(String regNumber) {
+        this.regNumber = regNumber;
     }
 
     public BigDecimal getPrice() {
@@ -33,18 +38,18 @@ public class Car {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Car car = (Car) o;
-        return Objects.equals(brand, car.brand) && Objects.equals(price, car.price);
+        return Objects.equals(regNumber, car.regNumber) && Objects.equals(price, car.price);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(brand, price);
+        return Objects.hash(regNumber, price);
     }
 
     @Override
     public String toString() {
         return "Car{" +
-                "brand='" + brand + '\'' +
+                "regNumber='" + regNumber + '\'' +
                 ", price=" + price +
                 '}';
     }

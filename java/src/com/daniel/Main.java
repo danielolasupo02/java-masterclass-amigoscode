@@ -1,24 +1,30 @@
 package com.daniel;
 
+import com.daniel.car.Car;
+import com.daniel.car.CarService;
+import com.daniel.person.Person;
+
 import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
 
-        Address address = new Address(
-                "Foobar Str",
-                "NE33",
-                "Nigeria"
+        carExamples();
+
+    }
+
+    private static void carExamples() {
+        Car car = new Car(
+                "1234",
+                BigDecimal.TEN
         );
 
-        Car tesla = new Car(CarBrand.TESLA, new BigDecimal(1500000));
+        CarService carService = new CarService();
 
-        Car[] cars = {tesla};
+        carService.registerNewCar(car);
 
-        Person alex = new Person("Alex", 23, address, cars);
-
-        System.out.println(alex);
+        System.out.println(Arrays.toString(carService.getCars()));
     }
 }
 
