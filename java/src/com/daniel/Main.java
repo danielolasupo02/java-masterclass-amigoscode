@@ -1,31 +1,19 @@
 package com.daniel;
 
-import com.daniel.car.Car;
-import com.daniel.car.CarService;
-import com.daniel.person.Person;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+        BankAccount account = new BankAccount("Olasupo", BigDecimal.TEN, false);
+        account.setBalance(new BigDecimal("100")) ;
+        System.out.println(account.withdraw(new BigDecimal("9.0")));
 
-        carExamples();
-
+        System.out.println(account.getBalance());
     }
 
-    private static void carExamples() {
-        Car car = new Car(
-                "1234",
-                BigDecimal.TEN
-        );
 
-        CarService carService = new CarService();
 
-        carService.registerNewCar(car);
-
-        System.out.println(Arrays.toString(carService.getCars()));
-    }
 }
 
 
