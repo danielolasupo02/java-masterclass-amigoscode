@@ -1,6 +1,5 @@
 package com.daniel.person;
 
-import com.daniel.Address;
 import com.daniel.car.Car;
 
 import java.util.Arrays;
