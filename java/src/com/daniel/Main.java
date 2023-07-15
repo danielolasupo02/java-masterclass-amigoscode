@@ -54,16 +54,24 @@ public class Main {
 //        5. Write a Java program to create a class called "Book" with attributes for title,
 //        author, and ISBN, and methods to add and remove books from a collection.
 
-          Book book1 = new Book("Whispers of the Enchanted Forest", "Isabella Nightshade", "978-1-234567-89-0");
-          Book.addBook(book1);
-          Book book2 = new Book("Ephemeral Serenade", "Aiden Rivers", "978-0-987654-32-1");
-          Book.addBook(book2);
-          Book book3 = new Book("Chronicles of the Celestial Realm", "Luna Evergreen", "978-5-432109-87-6");
-          Book.addBook(book3);
+//          Book book1 = new Book("Whispers of the Enchanted Forest", "Isabella Nightshade", "978-1-234567-89-0");
+//          Book.addBook(book1);
+//          Book book2 = new Book("Ephemeral Serenade", "Aiden Rivers", "978-0-987654-32-1");
+//          Book.addBook(book2);
+//          Book book3 = new Book("Chronicles of the Celestial Realm", "Luna Evergreen", "978-5-432109-87-6");
+//          Book.addBook(book3);
+//
+//          ArrayList<Book> bookCollection = Book.getBookCollection();
+//          for (Book book : bookCollection)
+//              System.out.println(book.getTitle() + "---" + book.getAuthor() + "---" +book.getISBN());
 
-          ArrayList<Book> bookCollection = Book.getBookCollection();
-          for (Book book : bookCollection)
-              System.out.println(book.getTitle() + "---" + book.getAuthor() + "---" +book.getISBN());
+//        6. Write a Java program to create a class called "Employee" with a name, job title,
+//        and salary attributes, and methods to calculate and update salary.
+
+//          Employee daniel = new Employee("Daniel Olasupo", "Software Engineer", 750_000);
+//          daniel.increaseSalary(100000);
+//          System.out.println("Staff Name: " + daniel.getName() + "\nJob Title: " + daniel.getJobtitle() + "\nSalary: " + daniel.getSalary());
+
 
     }
 
