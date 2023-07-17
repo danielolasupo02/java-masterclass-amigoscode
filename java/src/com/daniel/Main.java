@@ -3,6 +3,8 @@ package com.daniel;
 
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 
 public class Main {
@@ -106,7 +108,39 @@ public class Main {
 
 //        9. Write a Java program to create a class called "Employee" with a name,
 //        salary, and hire date attributes, and a method to calculate years of service.
+//            Employeee emp1 = new Employeee("Daniel Olasupo", 50000, LocalDate.parse("2007-05-02"));
+//
+//            Employeee emp2  = new Employeee("Jose-Maria Obi", 70000, LocalDate.parse("2015-05-02"));
+//
+//            Employeee emp3  = new Employeee("Joel Egbuzobi", 85000, LocalDate.parse("2018-05-02"));
+//            emp1.showServiceDetails();
+//            emp2.showServiceDetails();
+//            emp3.showServiceDetails();
 
+
+
+//        10. Write a Java program to create a class called "Student" with a
+//        name, grade, and courses attributes, and methods to add and remove courses
+
+//        Student student1 = new Student("Daniel Olasupo", 89);
+//        student1.addCourse("MAT111");
+//        student1.addCourse("MAT112");
+//        student1.addCourse("CHM111");
+//        student1.addCourse("CHM122");
+//        student1.addCourse("PHY111");
+//        student1.addCourse("PHY111");
+//        student1.regDetails();
+
+
+
+
+//        11. Write a Java program to create a class called "Library" with a
+//        collection of books and methods to add and remove books.
+
+
+//        12. Write a Java program to create a class called "Airplane" with a
+//        flight number, destination, and departure time attributes, and methods to
+//        check flight status and delay.
 
 
 
