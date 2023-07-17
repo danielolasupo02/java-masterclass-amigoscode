@@ -104,6 +104,9 @@ public class Main {
 //        TrafficLight light3 = new TrafficLight("Yellow", 15);
 //        light3.checkTrafficLight();
 
+//        9. Write a Java program to create a class called "Employee" with a name,
+//        salary, and hire date attributes, and a method to calculate years of service.
+
 
 
 
