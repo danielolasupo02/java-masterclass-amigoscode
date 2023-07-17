@@ -70,7 +70,46 @@ public class Main {
 
 //          Employee daniel = new Employee("Daniel Olasupo", "Software Engineer", 750_000);
 //          daniel.increaseSalary(100000);
+//          daniel.decreaseSalary(400000);
 //          System.out.println("Staff Name: " + daniel.getName() + "\nJob Title: " + daniel.getJobtitle() + "\nSalary: " + daniel.getSalary());
+
+//        7. Write a Java program to create a class called "Bank" with a collection of accounts and methods
+//        to add and remove accounts, and to deposit and withdraw money. Also define a class called
+//        "Account" to maintain account details of a particular customer.
+
+//        Bank bank = new Bank();
+//        Account acc1 = new Account("Daniel Olasupo", 1000001, 5000);
+//        Account acc2 = new Account("Joel Egbuzobi", 1000002, 4000);
+//        Account acc3 = new Account("Collins Ikedinachim", 1000003, 4500);
+//        bank.accountList.add(acc1);
+//        bank.accountList.add(acc2);
+//        bank.accountList.add(acc3);
+//
+//        bank.depositMoney(acc1, 11000);
+//        acc1.getAccountDetails();
+//        bank.depositMoney(acc2, 11000);
+//        acc2.getAccountDetails();
+//        bank.depositMoney(acc3, 11000);
+//        acc3.getAccountDetails();
+
+//        8. Write a Java program to create class called "TrafficLight" with attributes
+//        for color and duration, and methods to change the color and check for red or green.
+
+//        TrafficLight light1 = new TrafficLight("Green", 12);
+//        light1.checkTrafficLight();
+//
+//        TrafficLight light2 = new TrafficLight("Red", 134);
+//        light2.checkTrafficLight();
+//
+//        TrafficLight light3 = new TrafficLight("Yellow", 15);
+//        light3.checkTrafficLight();
+
+
+
+
+
+
+
 
 
     }
