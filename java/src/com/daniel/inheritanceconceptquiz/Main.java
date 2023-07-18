@@ -5,16 +5,22 @@ public class Main {
 //        1. Write a Java program to create a class called Animal with a method
 //        called makeSound(). Create a subclass called Cat that overrides
 //        the makeSound() method to bark.
+//          Cat cat1 = new Cat();
+//          cat1.makeSound();
+
 
 
 //        2. Write a Java program to create a class called Vehicle with a
 //        method called drive(). Create a subclass called Car that
 //        overrides the drive() method to print "Repairing a car".
+//        Car car1 = new Car();
+//        car1.drive();
 
 
 //        3. Write a Java program to create a class called Shape with a method
 //        called getArea(). Create a subclass called Rectangle that overrides the
 //        getArea() method to calculate the area of a rectangle.
+
 
 
 //        4. Write a Java program to create a class called Employee with methods
