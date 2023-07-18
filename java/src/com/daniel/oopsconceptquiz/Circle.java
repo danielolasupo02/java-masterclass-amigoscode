@@ -1,6 +1,5 @@
-package com.daniel;
+package com.daniel.oopsconceptquiz;
 
-import java.text.DecimalFormat;
 import java.util.Objects;
 
 public class Circle {

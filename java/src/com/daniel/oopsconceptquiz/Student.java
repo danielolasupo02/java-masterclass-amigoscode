@@ -1,4 +1,4 @@
-package com.daniel;
+package com.daniel.oopsconceptquiz;
 
 import java.util.ArrayList;
 

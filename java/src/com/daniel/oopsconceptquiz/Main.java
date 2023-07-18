@@ -1,4 +1,4 @@
-package com.daniel;
+package com.daniel.oopsconceptquiz;
 
 
 import java.math.BigDecimal;
@@ -157,9 +157,20 @@ public class Main {
 //        collection of products and methods to add and remove products, and to
 //        check for low inventory.
 
+//          String product1Desc = "\n The SuperWidget 2000 is a cutting-edge gadget \n that combines multiple functions \n into one sleek device.";
+//          Product product1 = new Product("SuperWidget-2000", product1Desc, 4, 99.99);
+//          Inventory inventory = new Inventory();
+//          inventory.addProduct(product1);
+//          inventory.showDetails(product1);
+
+
 //        14. Write a Java program to create a class called "School" with attributes
 //        for students, teachers, and classes, and methods to add and remove students
 //        and teachers, and to create classes.
+
+
+
+
 
 
 
