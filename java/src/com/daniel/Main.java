@@ -6,6 +6,7 @@ import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
@@ -137,10 +138,28 @@ public class Main {
 //        11. Write a Java program to create a class called "Library" with a
 //        collection of books and methods to add and remove books.
 
+//        Boook book1 = new Boook("Far from Home", "Daniel Olasupo", "929-903-001-234");
+//        Library library = new Library();
+//        library.addBook(book1);
+//        library.printBookDetails(book1);
+
 
 //        12. Write a Java program to create a class called "Airplane" with a
 //        flight number, destination, and departure time attributes, and methods to
 //        check flight status and delay.
+//          Airplane attendant1 = new Airplane("LOS-101", "LDN");
+//          Date specificDate = new Date();
+//
+//          attendant1.setDepartureTime(specificDate);
+//          attendant1.printFlightDetails();
+
+//        13. Write a Java program to create a class called "Inventory" with a
+//        collection of products and methods to add and remove products, and to
+//        check for low inventory.
+
+//        14. Write a Java program to create a class called "School" with attributes
+//        for students, teachers, and classes, and methods to add and remove students
+//        and teachers, and to create classes.
 
 
 
