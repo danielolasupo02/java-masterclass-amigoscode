@@ -3,7 +3,7 @@ package com.daniel.encapsulationconceptquiz;
 import java.math.BigDecimal;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 //        1. Write a Java program to create a class called Person
 //        with private instance variables name, age. and country. Provide
 //        public getter and setter methods to access and modify these variables.
@@ -54,6 +54,47 @@ public class Main {
 //        emp1.printEmployeeDetails();
 //        emp2.printEmployeeDetails();
 //        emp1.getEmployee_salary();
+
+
+//        5. Write a Java program to create a class called Circle with a private instance
+//        variable radius. Provide public getter and setter methods to access and modify the
+//        radius variable. However, provide two methods called calculateArea() and
+//        calculatePerimeter() that return the calculated area and perimeter based on the current
+//        radius value.
+
+//          Circle circle1 = new Circle(9);
+//          circle1.calculatePerimeter();
+//          circle1.calculateArea();
+
+
+//        6. Write a Java program to create a class called Car with private instance variables
+//        company_name, model_name, year, and mileage. Provide public getter and setter methods
+//        to access and modify the company_name, model_name, and year variables. However, only
+//        provide a getter method for the mileage variable.
+//         Car car1 = new Car("Tesla", "Stellar", 2022, 190_090);
+//         car1.printCarDetails();
+//
+//        Car car2 = new Car("Hyundai", "Elantra", 2012, 250_090);
+//        car2.printCarDetails();
+
+//        7. Write a Java program to create a class called Student with private instance
+//        variables student_id, student_name, and grades. Provide public getter and setter
+//        methods to access and modify the student_id and student_name variables. However,
+//        provide a method called addGrade() that allows adding a grade to the grades
+//        variable while performing additional validation.
+
+//        Student student1 = new Student("17CJ022567","Olasupo Daniel");
+//        student1.addGrade("A");
+//        student1.addGrade("A");
+//        student1.addGrade("A");
+//        student1.addGrade("A");
+//        student1.addGrade("A");
+//        student1.addGrade("B");
+//        student1.addGrade("A");
+//        student1.printStudentResult();
+
+
+
 
 
 
