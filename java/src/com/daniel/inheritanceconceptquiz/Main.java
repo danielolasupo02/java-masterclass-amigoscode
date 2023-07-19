@@ -67,11 +67,20 @@ public class Main {
 //        getPerimeter() and getArea(). Create a subclass called Circle that overrides the
 //        getPerimeter() and getArea() methods to calculate the area and perimeter of a
 //        circle.
+//           Shapee s1 = new Shapee();
+//           System.out.println("Area: " + s1.getArea());
+//           System.out.println("Perimeter: " + s1.getPerimeter());
+//
+//        Circle c1 = new Circle(5.0);
+//        System.out.println("Area: " + c1.getArea());
+//        System.out.println("Perimeter: " + c1.getPerimeter());
 
 
 //        9. Write a Java program to create a vehicle class hierarchy. The base class should
 //        be Vehicle, with subclasses Truck, Car and Motorcycle. Each subclass should have
 //        properties such as make, model, year, and fuel type. Implement methods for
 //        calculating fuel efficiency, distance traveled, and maximum speed.
+
+
     }
 }
