@@ -1,7 +1,7 @@
 ===Ongoing===
 Java Inheritance
 Java Polymorphism
-Java Method
+Java Interface
 Java Abstract Classes
 
 ===Pending===
@@ -10,7 +10,7 @@ Java Streams
 Java Collection
 Java Enums Type
 Java Generic Method
-Java Interface
+Java Method
 
 ===Completed===
 Java Object-Oriented Programming
