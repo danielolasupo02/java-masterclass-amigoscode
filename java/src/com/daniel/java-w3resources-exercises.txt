@@ -1,5 +1,4 @@
 ===Ongoing===
-Java Abstract Classes
 Java Polymorphism
 Java Interface
 
@@ -13,6 +12,7 @@ Java Generic Method
 Java Method
 
 ===Completed===
+Java Abstract Classes
 Java Inheritance
 Java Object-Oriented Programming
 Java File Input-Output
