@@ -1,8 +1,8 @@
 ===Ongoing===
-Java Inheritance
+Java Abstract Classes
 Java Polymorphism
 Java Interface
-Java Abstract Classes
+
 
 ===Pending===
 Java Date Time
@@ -13,9 +13,11 @@ Java Generic Method
 Java Method
 
 ===Completed===
+Java Inheritance
 Java Object-Oriented Programming
 Java File Input-Output
 Java Encapsulation
 Java Exception Handling
+
 
 
